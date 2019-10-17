@@ -38,7 +38,8 @@ Then you need to install some package from the julia prompt
 10. `using IJulia`
 11. `notebook(detached=true)`
 
-## The practical work
+
+## The practical work
 
 You can now download the files from this repository and run them frow the jupyter notebooks
 ([Help for IJulia](https://github.com/JuliaLang/IJulia.jl))
