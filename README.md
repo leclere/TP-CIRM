@@ -18,11 +18,10 @@ Then you need to install some package from the julia prompt
 1. enter `]`
 2. `add IJulia JuMP GLPK Ipopt`
 3. `precompile`
-4. `Ctrl - C`
-5. `using Pkg`
-6. `Pkg.build("IJulia")`
-7. `using IJulia`
-8. `notebook(detached=true)`
+4. `build IJulia`
+5. `Ctrl - C`
+6. `using IJulia`
+7. `notebook(detached=true)`
 
 ### Windows 
 
@@ -32,11 +31,10 @@ Then you need to install some package from the julia prompt
 4. `update`
 5. `add IJulia JuMP GLPK Ipopt`
 6. `precompile`
-7. `Ctrl - C`
-8. `using Pkg`
-9. `Pkg.build("IJulia")`
-10. `using IJulia`
-11. `notebook(detached=true)`
+7. `build IJulia` 
+8. `Ctrl - C`
+9. `using IJulia`
+10. `notebook(detached=true)`
 
 
 ## The practical work
