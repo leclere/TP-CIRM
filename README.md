@@ -3,6 +3,26 @@
 You will find here the files for the practical session of the Interface course 
 *Stochastic Optimization for Large-Scale Systems*
 
+
+## The practical work
+
+You can download the files from this repository (use the green button on the top right)
+and run them from the jupyter notebooks ([Help for IJulia](https://github.com/JuliaLang/IJulia.jl)). 
+Installation instruction are given at the end of this description.
+
+#### First practical session (Monday afternoon)
+- JuMPCrashcourse (very simple tutoriel to start working with notebooks, julia and JuMP)
+- Newsvendor is the first practical work
+
+#### Second practical session (Tuesday Morning)
+- flower-girl question 1 and 2
+
+#### Third practical session (Tuesday Afternoon)
+- flower-girl question 4 and 5
+
+#### Fourth practical session (Thursday Morning)
+- SDDP
+
 ## Installing Julia
 
 ### Linux
@@ -16,7 +36,7 @@ You can now run julia from the terminal simply calling `julia`
 
 Then you need to install some package from the julia prompt
 1. enter `]`
-2. `add IJulia JuMP GLPK Ipopt`
+2. `add IJulia JuMP GLPK`
 3. `precompile`
 4. `build IJulia`
 5. `Ctrl - C`
@@ -29,7 +49,7 @@ Then you need to install some package from the julia prompt
 2. double click and follow instructions
 3. launch julia and enter `]`
 4. `update`
-5. `add IJulia JuMP GLPK Ipopt`
+5. `add IJulia JuMP GLPK`
 6. `precompile`
 7. `build IJulia` 
 8. `Ctrl - C`
@@ -37,13 +57,3 @@ Then you need to install some package from the julia prompt
 10. `notebook(detached=true)`
 
 
-## The practical work
-
-You can now download the files from this repository and run them frow the jupyter notebooks
-([Help for IJulia](https://github.com/JuliaLang/IJulia.jl))
-
-1. JuMPCrashcourse is a very simple tutoriel to start working with notebooks, julia and JuMP
-2. Newsvendor will be your firt practical session
-3. two-stage problem is the second practical session
-4. flower-girl-problem is the third practical session
-5. SDDP is the last practical session
